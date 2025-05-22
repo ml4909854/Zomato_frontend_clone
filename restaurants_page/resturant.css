@@ -350,3 +350,253 @@ p {
 .accordion:hover {
     background-color: #f5f5f5;
 }
+
+/* Media querry of this code */
+/* Media Queries for Responsive Design */
+
+/* For screens up to 1200px (small desktops) */
+@media (max-width: 1200px) {
+  .main-getstarted > div {
+    width: 80%;
+  }
+  
+  .section2 > div:last-child {
+    flex-wrap: wrap;
+  }
+  
+  .section3 > div:last-child {
+    flex-wrap: wrap;
+  }
+  
+  .accordion {
+    width: 90%;
+  }
+}
+
+/* For screens up to 992px (tablets in landscape) */
+@media (max-width: 992px) {
+  .header-registration {
+    height: 500px;
+  }
+  
+  .header-text {
+    transform: translateY(120px);
+  }
+  
+  .header-text > h1 {
+    font-size: 32px;
+  }
+  
+  .header-text > button {
+    padding: 15px 50px;
+    font-size: 24px;
+  }
+  
+  .main-getstarted > div {
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+  }
+  
+  .content-section {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  
+  .video {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .section2 > div:last-child > div {
+    padding: 20px;
+  }
+  
+  .section3 > div:last-child > div {
+    width: 280px;
+  }
+}
+
+/* For screens up to 768px (tablets in portrait) */
+@media (max-width: 768px) {
+  .header-registration {
+    height: 450px;
+  }
+  
+  .header-text > h1 {
+    font-size: 28px;
+  }
+  
+  .header-text > button {
+    padding: 12px 40px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .main-getstarted > div {
+    width: 90%;
+    padding: 25px;
+  }
+  
+  .div-getstarted {
+    grid-template-columns: 1fr;
+  }
+  
+  .section2 {
+    padding: 30px;
+  }
+  
+  .section2 > div:last-child > div {
+    width: 50%;
+    padding: 15px;
+  }
+  
+  .section3 {
+    padding: 30px;
+    height: auto;
+  }
+  
+  .section3 > div:last-child {
+    padding: 20px 0;
+  }
+  
+  .section4 > div:first-child {
+    padding: 30px;
+  }
+  
+  .accordion > button {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+/* For screens up to 576px (large phones) */
+@media (max-width: 576px) {
+  .header-registration {
+    height: 400px;
+  }
+  
+  .header-registration > nav > div > button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  
+  .header-text > h1 {
+    font-size: 24px;
+  }
+  
+  .header-text > button {
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+  
+  .main-getstarted > div {
+    margin-top: -50px;
+    transform: translateY(-50px);
+  }
+  
+  .section2 > div:last-child > div {
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  .section2-images {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .section3 > div:last-child > div {
+    width: 100%;
+  }
+  
+  .pannel {
+    width: 90%;
+  }
+  
+  .section4 > div:first-child {
+    padding: 30px 20px;
+  }
+}
+
+/* For screens up to 480px (small phones) */
+@media (max-width: 480px) {
+  .header-registration {
+    height: 350px;
+  }
+  
+  .header-text {
+    transform: translateY(100px);
+  }
+  
+  .header-text > h1 {
+    font-size: 20px;
+  }
+  
+  .header-text > p {
+    font-size: 14px;
+  }
+  
+  .header-registration > nav > div > img {
+    width: 70px;
+    height: 25px;
+  }
+  
+  .main-getstarted h1 {
+    font-size: 20px;
+  }
+  
+  .section2 > div:last-child {
+    flex-direction: column;
+  }
+  
+  .section2 > div:last-child > div {
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  .section3 {
+    padding: 20px;
+  }
+  
+  .accordion > button {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .accordion > span {
+    font-size: 20px;
+  }
+}
+
+/* For screens up to 360px (very small phones) */
+@media (max-width: 360px) {
+  .header-registration {
+    height: 300px;
+  }
+  
+  .header-text > h1 {
+    font-size: 18px;
+  }
+  
+  .header-text > button {
+    padding: 8px 25px;
+    font-size: 16px;
+  }
+  
+  .main-getstarted > div {
+    padding: 20px;
+  }
+  
+  .section2 > div:last-child > div > h1 {
+    font-size: 18px;
+  }
+  
+  .section2 > div:last-child > div > p {
+    font-size: 14px;
+  }
+  
+  .section3 > div:last-child > div > p {
+    font-size: 14px;
+  }
+}

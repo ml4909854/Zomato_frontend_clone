@@ -9,7 +9,7 @@
         href="https://cdn.iconscout.com/icon/free/png-512/free-zomato-logo-icon-download-in-svg-png-gif-file-formats--food-company-brand-delivery-brans-logos-icons-1637644.png?f=webp&w=256">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="./resturant.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../landing_page/index.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                 <img id="zomatologo"
                     src="https://b.zmtcdn.com/data/o2_assets/3ecd43d729cc8135698465d4c964340b1710920889.png"
                     alt="zomato-logo-image">
-                <button>Login</button>
+                <button id="loginBtn">Login</button>
             </div>
         </nav>
         <div class="header-text">
@@ -30,6 +30,38 @@
             <button>Register your restaurant</button>
         </div>
     </header>
+
+    <section>
+        <!-- Login Modal -->
+        <div class="login-modal" id="loginModal">
+            <div class="login-container">
+                <div class="login-header">
+                    <h1 class="login-title">Login</h1>
+                    <button class="close-btn" id="closeBtn">&times;</button>
+                </div>
+
+                <div class="phone-input-container">
+                    <img src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" alt="India"
+                        class="country-flag">
+                    <span class="country-code">+91</span>
+                    <input type="tel" class="phone-input" placeholder="Phone number">
+                </div>
+
+                <button class="otp-button">Send One Time Password</button>
+
+                <div class="divider">
+                    <span>or</span>
+                </div>
+
+                <button class="email-login-btn">Continue with Email</button>
+
+                <div class="login-footer">
+                    New to Zomato? <a href="#" class="create-account-link">Create account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <main>
         <div class="main-getstarted">
             <div>
@@ -320,10 +352,11 @@
             </div>
         </div>
     </footer>
-</body>
 
-</html>
     <script src="./resturant.js">
+
+    </script>
+    <script src="../landing_page/index.js">
 
     </script>
 </body>

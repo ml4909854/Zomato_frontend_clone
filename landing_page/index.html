@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Resturant in India - Zomato</title>
-    <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-512/free-zomato-logo-icon-download-in-svg-png-gif-file-formats--food-company-brand-delivery-brans-logos-icons-1637644.png?f=webp&w=256">
+    <link rel="icon"
+        href="https://cdn.iconscout.com/icon/free/png-512/free-zomato-logo-icon-download-in-svg-png-gif-file-formats--food-company-brand-delivery-brans-logos-icons-1637644.png?f=webp&w=256">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="index.css">
 </head>
@@ -16,8 +17,8 @@
             <div>
                 <div>
                     <a id="AddToResturantPage" style="cursor: pointer;">Add resturant</a>
-                    <a href="">Log in</a>
-                    <a href="">sign up</a>
+                    <a href="" id="loginBtn">Log in</a>
+                    <a href="" id="signupBtn">sign up</a>
                 </div>
             </div>
         </nav>
@@ -29,6 +30,89 @@
             <h3>Find the best restuarants, cafes <br> and bars in india</h3>
         </div>
     </header>
+
+    <section>
+        <!-- Login Modal -->
+        <div class="login-modal" id="loginModal">
+            <div class="login-container">
+                <div class="login-header">
+                    <h1 class="login-title">Login</h1>
+                    <button class="close-btn" id="closeBtn">&times;</button>
+                </div>
+
+                <div class="phone-input-container">
+                    <img src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" alt="India"
+                        class="country-flag">
+                    <span class="country-code">+91</span>
+                    <input type="tel" class="phone-input" placeholder="Phone number">
+                </div>
+
+                <button class="otp-button">Send One Time Password</button>
+
+                <div class="divider">
+                    <span>or</span>
+                </div>
+
+                <button class="email-login-btn">Continue with Email</button>
+
+                <div class="login-footer">
+                    New to Zomato? <a href="#" class="create-account-link" id="createAccount">Create account</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- singup Modal -->
+
+
+    <section>
+        <div class="signup-class" id="signupModal">
+            <form class="singup-container" id="signup-container">
+                <div>
+                    <div id="signupdiv">
+                        <h1>Sign Up</h1>
+                        <h1 id="signupcloseBtn" class="closeBtn">&times</h1>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="text" placeholder="Email" required>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <input type="checkbox"><span>
+                            I agree to zomato's Terms of Service.Privacy Policy and Content Policies
+
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button disabled>Create account</button>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div></div><span>or</span>
+                        <div></div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button>Sign in with Google</button>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        Already have an account? <span>Log in</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+<!-- main content starts here -->
     <main>
         <div class="popularLocations">
             <p>Popular location in <img style="display: inline-block;"
