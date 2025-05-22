@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/landing_page/index.html" },
+    { "src": "/restaurant", "dest": "/restuarants_page/restaurant.html" }
+  ]
+}
